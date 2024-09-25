@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Donation Bd</title>
+        <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                  }
+                }
+              }
+            }
+          </script>
+          
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body class="max-w-screen-2xl mx-auto">
+    <nav class="sticky top-0 bg-[#ffffff98] py-5 w-full z-50">
+    
+            <div class="navbar">
+                <div class="navbar-start">
+                    <button id="btn-blog" class="btn bg-green-400">Blog</button>
+                </div>
+                <div class="navbar-center">
+                  <a class="btn btn-ghost font-extrabold text-xl"><div class="w-8"><img src="assets/logo.png" alt="" class="w-full"></div>DONATION BD</a>
+                </div>
+                <div class="navbar-end flex">
+                  <div><img src="assets/coin.png" alt=""></div>
+                  <h2 class="font-bold text-xl"><span id="current-amount">5500</span>BDT</h2>
+                </div>
+            </div>
+            <div class="flex justify-center items-center gap-3 my-5">
+                <button id="donation-btn" class="btn btn-outline btn-secondary">Donation</button>
+                <button id="history-btn" class="btn btn-secondary text-black outline-white bg-green-400">History</button>
+            </div>
+    
+    </nav>
+    <main class="my-10">
+        <h3 class="font-extrabold text-2xl my-5"></h3>
+    <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+        <div class="collapse-content">
+          <p>hello</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+        <div class="collapse-content">
+          <p>hello</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+        <div class="collapse-content">
+          <p>hello</p>
+        </div>
+      </div>
+  </main>
+  <script src="js/index.js"></script>
+</body>
+</html>
