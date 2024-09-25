@@ -35,13 +35,13 @@
                   <h2 class="font-bold text-xl"><span id="current-amount"> 5500</span> BDT</h2>
                 </div>
             </div>
-            <div class="flex justify-center items-center my-5">
+            <div class="flex justify-center items-center gap-3 my-5">
                 <button id="donation-btn" class="btn btn-secondary text-black bg-green-400">Donation</button>
                 <button id="history-btn" class="btn btn-outline btn-secondary">History</button>
             </div>
     </nav>
     <main class="">
-      <div id="main-container">
+      <div id="main-container flex flex-col justify-center items-center gap-5">
         <div class="newkhali">
             <div class="hero bg-base-200 min-h-screen border-2 border-gray-300">
                 <div class="hero-content flex-col lg:flex-row gap-8">
@@ -130,11 +130,20 @@
           
        </div>
       </div>
-       <div id="history-container" class="hidden">
-
-
+       <div id="history-container" class="hidden my-3 rounded-lg">
        
        </div>
+       <div id="card" class="card bg-base-100 w-1/2 h-86 shadow-xl fixed top-80 left-96 max-md:left-40 hidden ">
+            <div class="card-body items-center text-center">
+                <h2 class="card-title font-extrabold text-3xl ">Congrats!</h2>
+                <div class="my-5 w-16"><img src="assets/coin.png" alt="" class="w-full"></div>
+                <p>You have donated for humankind</p>
+                <h2 class="card-title font-bold ">Successfully</h2>
+                <div class="card-actions">
+                    <button id="close-btn" class="btn btn-primary mt-5">Close Confirmation</button>
+                </div>
+                </div>
+      </div>
     </main>
     <footer></footer>
     <script src="js/utility.js"></script>

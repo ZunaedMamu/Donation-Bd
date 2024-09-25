@@ -1,12 +1,19 @@
+
 document.getElementById("btn-blog").addEventListener("click",function(){
-    window.location.href ="../faq.html"
+    window.location.href ="../faq.html";
+  
+
 })
 document.getElementById("donation-btn").addEventListener("click",function(){
-    window.location.href ="../index.html"
+    window.location.href ="../index.html";
+   
 })
-document.getElementById("donation-btn").addEventListener("click",function(){
-    window.location.href ="../index.html"
+document.getElementById("close-btn").addEventListener("click",function(){
+    card.classList.add('hidden');
+   
 })
+
+
 const container1 = document.getElementById("main-container");
 const container2 = document.getElementById("history-container");
 document.getElementById("history-btn").addEventListener("click",function(){
